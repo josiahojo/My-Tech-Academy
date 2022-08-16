@@ -1,0 +1,90 @@
+html{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.panel{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    max-width: 960px;
+    width: 100%;
+    text-align: center;
+}
+
+.pricing-panel{
+    border-bottom: 2px solid skyblue;
+}
+
+.pricing-img{
+    margin: 20px;
+    max-width: 100%;
+}
+
+.pricing-header{
+    color: blue;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+}
+
+.pricing-features{
+    color: skyblue;
+    margin: 35px 0 5px;
+}
+
+.pricing-features-items{
+    border-top: 2px solid skyblue;
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.pricing-price{
+    display: block;
+    color: blue;
+    font-size: 25px;
+    font-weight: 900;
+    border-top: 2px solid skyblue;
+    padding: 15px;
+}
+
+.Pricing-button{
+    border: 2px solid red;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 12px;
+    color: dodgerblue;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.Pricing-button:hover{
+    background-color: gray;
+}
+
+@media (min-width: 900px){
+    .panel {
+        flex-direction: row;
+    }
+    .pricing-panel {
+        border-bottom: none;
+        padding: 20px;
+        border-right: 2px solid black;
+    }
+    .pricing-panel:last-child{
+        border-right: none;
+    }
+}
