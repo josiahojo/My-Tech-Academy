@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background: linear-gradient(45deg, white, orange);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.column-one, .column-two {
+    flex-basis: 50%;
+}
+
+.column-one img {
+    width: 100%;
+    display: block;
+}
+
+.column-two {
+    background-color: white;
+    min-width: 250px;
+    padding: 40px 8%;
+}
+
+.column-two h2 {
+    font-weight: 600;
+}
+
+.column-two span {
+    font-size: 12px;
+}
+
+.login {
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.google-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.google-link img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.column-two h4 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.input-field {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+
+form label {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.row input {
+    margin-right: 7px;
+}
+
+.row button {
+    padding: 10px;
+    background-color: red;
+    display: block;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0 25px;
+    width: 100%;
+}
