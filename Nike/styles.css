@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 8%;
+}
+
+.logo {
+    width: 110px;
+    cursor: pointer;
+}
+
+.nav-icons img {
+    width: 25px;
+    margin-left: 25px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.column-one, .column-two {
+    flex-basis: 50%;
+    display: block;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.column-one {
+    padding-left: 8%;
+}
+
+.column-two {
+    background-color: red;
+}
+
+.column-one h1 {
+    font-size: 70px;
+    line-height: 100px;
+}
+
+.column-one h2 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    width: fit-content;
+    padding: 20px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.featured-img {
+    width: 100%;
+    text-align: center;
+}
+
+.featured-img img {
+    width: 70%;
+    transform: rotate(-20deg);
+}
+
+.shoe-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 70px auto 0;
+}
+
+.shoe-box {
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+}
+
+.shoe-box img {
+    width: 120px;
+    transform: translate(-50px, 20px) rotate(-20deg);
+}
